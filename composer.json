@@ -1,9 +1,21 @@
 {
+    "name": "clarketech/performance-counter",
+    "description": "A development tool for monitoring application performance and debugging bottlenecks",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gary Clarke",
+            "email": "info@garyclarke.tech.com"
+        }
+    ],
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "ClarkeTech\\PerformanceCounter\\": "src/"
         }
     },
+    "require": {},
     "require-dev": {
         "phpunit/phpunit": "^9.5"
     }

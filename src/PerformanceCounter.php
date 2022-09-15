@@ -85,6 +85,9 @@ final class PerformanceCounter
         $this->averageIterationTime = [];
     }
 
+    /**
+     * change for version 1.1
+     */
     public function getKeys(): array
     {
         return array_keys($this->iterationCount);
